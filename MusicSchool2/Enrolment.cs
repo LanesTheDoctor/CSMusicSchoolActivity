@@ -19,6 +19,7 @@ namespace MusicSchool2
         public string Course { get; set; }
         public string StartDate { get; set; }
         public string EndDate { get; set; }
+
         // public parameterised constructor method
         public Enrolment(string fName, string lName, string dob,
         string phone, string email, string instrument, string course, string
@@ -34,6 +35,7 @@ namespace MusicSchool2
             StartDate = startDate;
             EndDate = endDate;
         }
+
         // public ToString() method
         // use to display in the application
         public override string ToString()

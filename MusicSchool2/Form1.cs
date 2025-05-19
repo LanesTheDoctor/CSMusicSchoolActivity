@@ -468,6 +468,7 @@ namespace MusicSchool2
                 // WinForms app
                 System.Windows.Forms.Application.Exit();
             }
+
             else
             {
                 // Console app
